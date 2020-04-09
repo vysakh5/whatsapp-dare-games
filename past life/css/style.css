@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@700&display=swap');
+
+
+body {
+  background-color: #3498DB ;
+  font-family: 'Baloo Chettan 2', cursive !important;
+  text-shadow: 2px 2px 8px #ccc;
+  text-align: center !important;
+  background: linear-gradient(195deg, #0d9776, #0d8797, #bed719, #ba16da, #f50c2f);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+
+}
+h4{
+  color: white;
+}
+h2{
+  font-size: 50px !important;
+}
+
+h5 {
+  color: black ;
+  font-size: 25px !important;
+  }
+
+.footer{
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  border: 3px solid #cccccc;
+
+}
+.f1 {
+  padding-top: 90%;
+  align-items: center;
+}
+.f2 {
+  padding-top: 70%;
+  align-items: center;
+}
+
+  a {
+    color: black !important;
+  }
+
+.nameText{
+         width: 80%;
+         margin: 0 auto;
+         padding: 20px;
+         background: #f0e68c;
+     }
+
+     @-webkit-keyframes AnimationName {
+         0%{background-position:43% 0%}
+         50%{background-position:58% 100%}
+         100%{background-position:43% 0%}
+     }
+     @-moz-keyframes AnimationName {
+         0%{background-position:43% 0%}
+         50%{background-position:58% 100%}
+         100%{background-position:43% 0%}
+     }
+     @keyframes AnimationName {
+         0%{background-position:43% 0%}
+         50%{background-position:58% 100%}
+         100%{background-position:43% 0%}
+     }
